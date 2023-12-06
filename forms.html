@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <ul>
+        <li><a href="home.html" class="a2">Home</a></li>
+        <li><a href="buttons.html" class="a2">Buttons</a></li>
+        <li><a href="images.html" class="a2">Images</a></li>
+        <li><a href="tables.html" class="a2">Tables</a></li>
+        <li><a href="lists.html" class="a2">Lists</a></li>
+        <li><a href="iframe.html" class="a2">Iframes</a></li>
+        <li><a href="forms.html" class="a2">Forms</a></li>
+        <li><a href="layouts.html" class="a2">Layouts</a></li>
+        <li><a href="menu.html" class="a2">Menus</a></li>
+    </ul>
+    <h1>with forms you can collect data from users!</h1><br><br>
+    <form action="">
+    <label for="name">Your name:</label><br>
+    <input type="text" name="user_name" id="name" size="40px"><br><br>
+    <label for="surname">Your surname:</label><br>
+    <input type="text" name="user_surname" id="surname" disabled><br><br>
+    <label for="email">Your email:</label><br>
+    <input type="email" name="user_email" id="email" autofocus><br><br>
+    <label for="password">Your password:</label><br>
+    <input type="password" name="user_password" id="password" minlength="4" maxlength="10"><br><br>
+    <label for="telephone">Your telephone:</label><br>
+    <input type="tel" name="user_telephone" id="telephone" placeholder="+994 55 249 56 12"
+        pattern="[+]{1}[0-9]{3}[0-9]{2}[0-9]{3}[0-9]{2}[0-9]{2}"><br><br>
+    <label for="link">Your link:</label><br>
+    <input type="url" id="link" name=user_link><br><br>
+    <label for="age">Your age:</label><br>
+    <input type="number" name="user_age" id="age" min="18" max="67"><br><br>
+    <label for="">Your profession:</label>
+    <datalist>
+        <option value="front-end">Front-End</option>
+        <option value="front-end">Back-End</option>
+        <option value="front-end">Full-Stack</option>
+    </datalist>
+
+
+
+    <input type="submit" value="Gonder">
+    </form>
+</body>
+
+</html>

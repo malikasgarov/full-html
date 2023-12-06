@@ -1,0 +1,102 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  list-style: none;
+  display: block;
+  border: 10px solid black;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+
+}
+
+.a2 {
+  text-decoration: none;
+  color: white;
+}
+
+h2 h1 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.button {
+  background-color: #04AA6D;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button2 {
+  background-color: #2a1392;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.a {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  border: 10px solid red;
+  margin: 0px;
+  padding: none;
+  border-radius: 8px;
+}
+
+.a3 {
+  text-decoration: none;
+  color: white;
+  background-color: greenyellow;
+  border: 10px solid greenyellow;
+  margin: 0px;
+  padding: none;
+  border-radius: 8px;
+}
+
+.a4 {
+  text-decoration: none;
+  color: white;
+  background-color: orange;
+  border: 10px solid orange;
+  margin: 0px;
+  padding: none;
+  border-radius: 8px;
+}
+
+.a5 {
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  border: 10px solid blue;
+  margin: 0px;
+  padding: none;
+  border-radius: 8px;
+}
+li:hover{
+  background-color: gray;
+  margin: 0px;
+  padding: 0px;
+  border: 10px solid gray;
+}
+
+body {
+  background-color: bisque;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

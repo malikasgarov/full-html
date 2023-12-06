@@ -1,0 +1,26 @@
+td{
+    border: 2px solid white;
+    
+}
+th{
+    border: 2px solid white;
+    
+}
+table{
+    border-collapse: collapse;
+}
+.aa{
+    background-color: aqua;
+}
+.as{
+    background-color: blue;
+}
+.ss{
+    background-color: blueviolet;
+}
+caption{
+    background-color: brown;
+}
+.aqua{
+    background-color: aqua;
+}
